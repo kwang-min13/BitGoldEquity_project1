@@ -1,4 +1,4 @@
-# 📊 비트코인, 금, 그리고 주식 시장의 상관관계 분석
+# 비트코인, 금, 그리고 주식 시장의 상관관계 분석
 *(Correlation Analysis of Bitcoin, Gold, and Stock Markets)*
 
 > **과제 프로젝트_2023**
@@ -7,12 +7,12 @@
 
 ---
 
-## 💡 프로젝트 개요 (Overview)
+## 프로젝트 개요 (Overview)
 비트코인과 관련된 여러 기사나 정보들을 살펴보면, 비트코인이 **금의 가격 및 주식 시장과 상관관계가 있다**는 주장을 종종 접할 수 있습니다. 본 프로젝트는 이러한 가설을 검증하고자, 미국 주식 시장(나스닥 100, 다우존스, S&P 500) 및 금 가격 데이터를 바탕으로 비트코인 가격에 미치는 영향을 데이터 기반으로 확인하는 것을 목표로 합니다.
 
 ---
 
-## 🛠 기술 스택 (Tech Stack)
+## 기술 스택 (Tech Stack)
 - **Language**: Python
 - **Data Manipulation**: `pandas`, `numpy`
 - **Machine Learning & Stats**: `scikit-learn`, `statsmodels`
@@ -21,7 +21,7 @@
 
 ---
 
-## 💾 데이터 수집 및 전처리 (Data Preparation)
+## 데이터 수집 및 전처리 (Data Preparation)
 
 ### 1. 데이터 수집
 - **수집 기간**: 2018년 1월 1일 ~ 2023년 4월 30일 (일별 과거 데이터)
@@ -36,7 +36,7 @@
 
 ---
 
-## 📈 분석 및 모델링 (Analysis & Modeling)
+## 분석 및 모델링 (Analysis & Modeling)
 
 ### 1. 다중선형회귀 (Multiple Linear Regression - OLS)
 - 각 독립변수 간의 상관관계를 확인한 후 선형 회귀(OLS) 모델을 학습했습니다. 
@@ -49,7 +49,7 @@
 
 ---
 
-## 🤔 한계점 및 배운 점 (Lessons Learned)
+## 한계점 및 배운 점 (Lessons Learned)
 - **한계점**: 금융 시계열 데이터의 특성상 단순한 선형 회귀 모델만으로는 비트코인 가격을 유의미하게 예측하고 설명하는 데 한계가 있었습니다.
 - +
 - **배운 점**: 
